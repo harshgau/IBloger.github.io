@@ -1,0 +1,161 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.navigation{
+    background-color: rgb(59, 50, 50);
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.carousel-inner img {
+    width: 100%;
+    height: 90vh;
+  }
+.aboutimage{
+    width: 100%;
+    height: 400px;
+    padding: 10px 20px;
+}
+.content{
+    height: 250px;
+    background-color: green;
+    display: flex;
+}
+.footer{
+    height: 230px;
+    background-color: gray;
+}
+.hamburger{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border: 10;
+    color: rgb(241, 238, 238);
+    font-size: 20px;
+}
+.hamburger:focus{
+    outline: none;
+}
+.nav-left{
+    display: flex;
+    font-size: 20px;
+}
+.nav-right{
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-left ul li{
+    list-style: none;
+    margin:0px 14px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: red;
+}
+.nav-left ul li a:hover{
+    color: rgb(153, 141, 141);
+    font-size: 26px;
+}
+.form-input{
+    padding: 5px 5px;
+    font-size: 17px;
+    border: 2px solid pink;
+    margin: 0px 15px;
+    border-radius: 14px; 
+}
+.logo{
+    height: 10vh;
+    width: 20vw;
+     border-radius: 20px ;
+}
+.nav-link:hover{
+ font-size: 20px;
+ color: rgb(0, 255, 55);
+ cursor: pointer;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.content-right{
+    width: 50%;
+    
+    
+}
+.content-left{
+width: 50%;
+ } 
+
+.content-right img{
+    width: 200px;
+    height: 150px;
+    align-content: center;
+    display: flex;
+}
+
+.baricon {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 4%;
+    cursor: pointer;
+}
+
+
