@@ -33,6 +33,12 @@
   {
     color: tomato;
   }
+.cta {
+    padding: .875rem 1.25rem;
+    background: #ff8000;
+    font-weight: 500;
+    font-size: .8125rem;
+}
   
   
   #menuToggle input
