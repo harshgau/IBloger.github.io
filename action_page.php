@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
+
     <?php
 $con= mysqli_connect('localhost','root');
 if($con){
@@ -23,5 +21,4 @@ echo "$query";
 header('location:index.html');
 
 ?>
-    </body>
-</html>
+   
