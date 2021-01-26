@@ -1,5 +1,5 @@
 <?php
-$con= mysqli_connect('localhost','root');
+$con= mysqli_connect('github.com','root');
 if($con){
     echo "connection sucessful";
 }
