@@ -17,6 +17,6 @@ $query = "insert into userinfodata(Username,Mobile,email,password,comments) valu
 mysqli_query($con,$query);
 echo "$query";
  
-header('location:index.html');
+header('location:index.php');
 
 ?>
