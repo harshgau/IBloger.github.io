@@ -7,6 +7,10 @@
     color: #cdcdcd;
     font-family: "Avenir Next", "Avenir", sans-serif;
   }
+.head_er{
+    background: dimgrey;
+    text-align: center;
+}
   
   #menuToggle
   {
