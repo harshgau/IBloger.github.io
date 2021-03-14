@@ -83,12 +83,11 @@
         <p class="py-2">Create a unique and beautiful blog. It’s easy and free.</p>
         
         <a class="btn btn-success " style="background-color: rgb(255, 174, 0); font-size: 23px; border: 3px solid black; border-radius: 12px;" href="https://www.blogger.com/onboarding?pli=1#create">Create your blog &rarr;</a>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
 
+<style>
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -101,7 +100,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.btn1 {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -111,7 +110,7 @@ button {
   width: 100%;
 }
 
-button:hover {
+.btn1:hover {
   opacity: 0.8;
 }
 
@@ -214,14 +213,14 @@ span.psw {
 
 
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<button class="btn1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" method="post">
+  <form class="modal-content animate" action="action_page.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="https://source.unsplash.com/collection/190727" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
@@ -231,13 +230,13 @@ span.psw {
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
         
-      <button type="submit">Login</button>
+      <button class="btn1" type="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
+    <div class="container">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
@@ -444,7 +443,7 @@ The more frequent and better your blog posts are, the higher the chances for you
         <div class="w-50 m-auto">
 
 
-            <form action="action_page.html" method="post">
+            <form action="action_page.php" method="post">
 
                 <div class="form-group">
                     <label for="">Username</label>
