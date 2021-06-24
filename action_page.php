@@ -1,5 +1,5 @@
-    <?php
-$con= mysqli_connect('https://harshgau.github.io/','root');
+<?php
+$con= mysqli_connect('localhost','root');
 if($con){
     echo "connection sucessful";
 }
@@ -17,7 +17,7 @@ $query = "insert into userinfodata(Username,Mobile,email,password,comments) valu
 mysqli_query($con,$query);
 echo "$query";
  
-header('location:index.html');
+header('location:index.php');
 
 ?>
  
