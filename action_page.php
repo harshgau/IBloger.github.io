@@ -1,5 +1,5 @@
 <?php
-$con= mysqli_connect('localhost','root');
+$con= mysqli_connect('https://harshgau.github.io/IBloger.github.io','root');
 if($con){
     echo "connection sucessful";
 }
